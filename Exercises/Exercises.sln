@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Paar_Rida", "02_Paar_Rid
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_Papagoi", "03_Papagoi\03_Papagoi.csproj", "{580056A9-D899-4BEC-B0C2-6E79DFEC6A69}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_Calc_Plus", "04_Calc_Plus\04_Calc_Plus.csproj", "{863192BC-49C1-4066-8853-AC2871CFC1FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_guess", "05_guess\05_guess.csproj", "{73529331-F48B-4773-84B8-5C77911BDF68}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{580056A9-D899-4BEC-B0C2-6E79DFEC6A69}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{580056A9-D899-4BEC-B0C2-6E79DFEC6A69}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{580056A9-D899-4BEC-B0C2-6E79DFEC6A69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{863192BC-49C1-4066-8853-AC2871CFC1FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{863192BC-49C1-4066-8853-AC2871CFC1FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{863192BC-49C1-4066-8853-AC2871CFC1FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{863192BC-49C1-4066-8853-AC2871CFC1FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73529331-F48B-4773-84B8-5C77911BDF68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73529331-F48B-4773-84B8-5C77911BDF68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73529331-F48B-4773-84B8-5C77911BDF68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73529331-F48B-4773-84B8-5C77911BDF68}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
