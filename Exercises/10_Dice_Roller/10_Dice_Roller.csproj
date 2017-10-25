@@ -7,7 +7,7 @@
     <ProjectGuid>{13749F91-0761-420C-9F8F-90ADC1C48586}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>_10_Dice_Roller</RootNamespace>
-    <AssemblyName>_10_Dice_Roller</AssemblyName>
+    <AssemblyName>10_Dice_Roller</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

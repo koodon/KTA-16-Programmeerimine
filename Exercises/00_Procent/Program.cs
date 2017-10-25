@@ -10,6 +10,15 @@ namespace _00_Procent
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Dicount Calculator");
+
+            while (true)
+            {
+                Console.WriteLine("Enter your discount: ");
+                int number = int.Parse(Console.ReadLine());
+            }
+
+            if (number < 50) ;
         }
     }
 }

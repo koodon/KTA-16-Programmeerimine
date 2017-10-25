@@ -7,7 +7,7 @@
     <ProjectGuid>{D79DAAB3-66FC-479A-963C-C579F8BE5DAD}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>_00_Procent</RootNamespace>
-    <AssemblyName>_00_Procent</AssemblyName>
+    <AssemblyName>00_Procent</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
