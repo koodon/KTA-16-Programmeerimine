@@ -17,7 +17,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08_Excuses", "08_Excuses\08
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09_Excuses_Each", "09_Excuses_Each\09_Excuses_Each.csproj", "{838FF73C-7D02-4061-AD90-683767B74EE5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_Procent", "01_Procent\01_Procent.csproj", "{F3D204EC-4C5E-4130-B58E-F883D6401BB8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "00_Procent", "01_Procent\00_Procent.csproj", "{F3D204EC-4C5E-4130-B58E-F883D6401BB8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_Dice_Roller", "01_Dice_Roller\10_Dice_Roller.csproj", "{FF5C4FBB-51EB-4FD2-AD7F-F1418071C9EC}"
 EndProject
