@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F3D204EC-4C5E-4130-B58E-F883D6401BB8}</ProjectGuid>
+    <ProjectGuid>{FF5C4FBB-51EB-4FD2-AD7F-F1418071C9EC}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_01_Procent</RootNamespace>
-    <AssemblyName>01_Procent</AssemblyName>
+    <RootNamespace>_01_Dice_Roller</RootNamespace>
+    <AssemblyName>01_Dice_Roller</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

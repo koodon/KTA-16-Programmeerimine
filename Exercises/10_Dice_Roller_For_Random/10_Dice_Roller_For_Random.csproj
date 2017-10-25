@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F3D204EC-4C5E-4130-B58E-F883D6401BB8}</ProjectGuid>
+    <ProjectGuid>{BBB82056-B869-4039-A506-EE156A4B89CB}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_01_Procent</RootNamespace>
-    <AssemblyName>01_Procent</AssemblyName>
+    <RootNamespace>_10_Dice_Roller_For_Random</RootNamespace>
+    <AssemblyName>10_Dice_Roller_For_Random</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

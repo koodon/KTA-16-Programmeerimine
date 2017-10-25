@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F3D204EC-4C5E-4130-B58E-F883D6401BB8}</ProjectGuid>
+    <ProjectGuid>{909CADC7-6E0A-4B54-9BCA-6A2B4DC43C7D}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_01_Procent</RootNamespace>
-    <AssemblyName>01_Procent</AssemblyName>
+    <RootNamespace>_10_Dice_Roller_Class</RootNamespace>
+    <AssemblyName>10_Dice_Roller_Class</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,6 +42,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Dice.cs" />
+    <Compile Include="DiceRoll.cs" />
+    <Compile Include="DiceRoller.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
