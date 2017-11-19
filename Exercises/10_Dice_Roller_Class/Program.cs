@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _10_Dice_Roller_Class
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -21,7 +21,9 @@ namespace _10_Dice_Roller_Class
             {
                 Console.WriteLine($"1{diceRoll.Dice}: {diceRoll.Value}");
             }
+            Console.ReadLine();
 
+            /*
             Dice d6 = new Dice(6, "d6");
             Dice d8 = new Dice(8, "d8");
 
@@ -48,6 +50,7 @@ namespace _10_Dice_Roller_Class
             Console.WriteLine($"Roll total: { diceRolls.Sum(x => x.Value) }");
             Console.WriteLine("");
             Console.ReadLine();
+            */
         }
     }
 }

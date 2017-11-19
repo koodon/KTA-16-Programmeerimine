@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _10_Dice_Roller_Class
 {
-    class DiceRoller
+    public class DiceRoller
     {
         public List<DiceRoll> Roll(List<Dice> dices)
         {
@@ -14,11 +14,10 @@ namespace _10_Dice_Roller_Class
 
             foreach (var dice in dices)
             {
-                result.Add(new DiceRoll(dice.Description, );
+                result.Add(new DiceRoll(dice.Description, dice.Roll()));
             }
 
             return result;
         }
-
     }
 }

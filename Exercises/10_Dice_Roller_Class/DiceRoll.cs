@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _10_Dice_Roller_Class
 {
-    class DiceRoll
+    public class DiceRoll
     {
         public string Dice { get; }
 
