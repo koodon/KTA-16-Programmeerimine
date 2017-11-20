@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+//ctrl+.
 namespace _10_Dice_Roller_Class
 {
     public class Dice
