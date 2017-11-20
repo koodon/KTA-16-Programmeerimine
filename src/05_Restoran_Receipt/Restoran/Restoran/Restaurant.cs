@@ -17,10 +17,9 @@ namespace Restoran
             this.Address = address;
         }
 
-        public Receipt GetReceipt(List<Tab> list)
+        public Receipt GetReceipt(Tab tab)
         {
-            return new Receipt(this.Name, this.Address);
+            return new Receipt(this.Name, this.Address, tab);
         }
     }
 }
-

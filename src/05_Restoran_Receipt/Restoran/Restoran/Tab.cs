@@ -8,17 +8,21 @@ namespace Restoran
 {
     public class Tab
     {
-        private List<double> list = new List<double>();
+        public List<double> List { get; } = new List<double>();
 
         public void Add(double digit)
         {
-            list.Add(digit);
+            List.Add(digit);
         }
-        //public double Value { get; }
-        //public Tab(double value)
-        //{
-        //    this.Value = value;
-        //}
-        //return Add.(double);
+
+        public double All()
+        {
+            double value = 0;
+            foreach (var item in List)
+            {
+                value = value + item;
+            }
+            return value;
+        }
     }
 }
