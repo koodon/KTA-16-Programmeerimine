@@ -11,7 +11,7 @@ namespace _10_Dice_Roller_Class
         public int Sides { get; }
 
         public string Description { get; }
-
+        //readonly saan anda väärtused ja neid kasutada aga mitte peale seda enam muuta ei saa
         //private static readonly Random Random = new Random();
         private static Random Random { get; } = new Random();
 
@@ -24,6 +24,11 @@ namespace _10_Dice_Roller_Class
 
         public static Dice D6 => new Dice(6, "d6");
         public static Dice D8 => new Dice(6, "d8");
+
+        //public static Dice D4
+        //{
+        //    return new Dice(4, "d4");
+        //}
 
         //public int Roll(int Sides)
         public int Roll()
