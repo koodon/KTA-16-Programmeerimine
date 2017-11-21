@@ -21,5 +21,10 @@ namespace Restoran
         {
             return new Receipt(this.Name, this.Address, tab);
         }
+
+        //public override string ToString()
+        //{
+        //    var sb = StringBuilder();
+        //}
     }
 }
