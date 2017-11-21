@@ -48,5 +48,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BlackJack.Core\BlackJack.Core.csproj">
+      <Project>{760e1722-669a-4f89-aa43-57dac6590677}</Project>
+      <Name>BlackJack.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
