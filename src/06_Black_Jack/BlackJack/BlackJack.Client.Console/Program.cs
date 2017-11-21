@@ -7,18 +7,21 @@ using System.Threading.Tasks;
 namespace BlackJack.Client.Console
 {
     using System;
+    using BlackJack.Core;
+
     class Program
     {
         static void Main(string[] args)
         {
-            //all aces are 11 points (real life we can choose between 1 or 11)
-            //when we draw a card, house always draws a card (rl - house draws a card at the end)
             Console.WriteLine("Welcome to the game fo BlackJack");
             Console.WriteLine();
+            var C4 = new Card("4", 'C', 4);
+            var H6 = new Card("6", 'H', 6);
+            var S8 = new Card("8", 'S', 8);
+            var DJ = new Card("J", 'D', 10);
 
-            //clubs, heart, spades, 
-            Console.WriteLine("You have been dealt: 4C, 6H");
-            Console.WriteLine("House has been dealt: 8S, [?]");
+            Console.WriteLine($"You have been dealt: {C4.Description}, {H6.Description}");
+            Console.WriteLine($"You have been dealt: {S8.Description}, {(DJ.Hidden ? "[?]" : DJ.Description)}");
             Console.WriteLine();
 
             Console.WriteLine("What do you want to do?");
@@ -44,6 +47,11 @@ namespace BlackJack.Client.Console
 
             Console.WriteLine("Press any key");
             Console.ReadLine();
+        }
+
+        public static string Tutu(Card card)
+        {
+
         }
     }
 }
